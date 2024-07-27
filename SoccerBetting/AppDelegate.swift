@@ -1,21 +1,56 @@
-//
-//  AppDelegate.swift
-//  SoccerBetting
-//
-//  Created by Behruz Norov on 13/07/24.
-//
-
 import UIKit
+import IQKeyboardManagerSwift
+import RealmSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
+            IQKeyboardManager.shared.enable = true
+            IQKeyboardManager.shared.resignOnTouchOutside = true
+
+            window = UIWindow(frame: UIScreen.main.bounds)
+            let tabBarController = TabBarController()
+
+            let config = Realm.Configuration(
+                schemaVersion: 4,
+                migrationBlock: { migration, oldSchemaVersion in
+                    if oldSchemaVersion < 4 {
+                        migration.enumerateObjects(ofType: Details.className()) { oldObject, newObject in
+                            newObject!["id"] = UUID().uuidString
+                            if oldSchemaVersion < 2 {
+                                newObject!["note"] = "Impressions were not given:("
+                            }
+                        }
+                    }
+                })
+
+            Realm.Configuration.defaultConfiguration = config
+
+        
+        let teamRealmConfig = Realm.Configuration(
+            fileURL: Realm.Configuration.defaultConfiguration.fileURL!.deletingLastPathComponent().appendingPathComponent("teamRealm.realm"),
+            schemaVersion: 1,
+            migrationBlock: { migration, oldSchemaVersion in
+                if oldSchemaVersion < 1 {
+                }
+            })
+        
+            do {
+                let realm = try Realm(configuration: config)
+                    print("Default Realm file path: \(realm.configuration.fileURL!)")
+                    
+                    let teamRealm = try Realm(configuration: teamRealmConfig)
+                    print("teamRealm file path: \(teamRealm.configuration.fileURL!)")
+            } catch {
+                print("Error during loading Realm: \(error)")
+            }
+
+            window?.rootViewController = tabBarController
+            window?.makeKeyAndVisible()
+            return true
+        }
 
     // MARK: UISceneSession Lifecycle
 
@@ -30,7 +65,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
 }
-

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="clubsCellIdentifier" id="m9r-Vq-Ycq" customClass="ClubsCell" customModule="SoccerBetting" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="142" height="24"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m9r-Vq-Ycq" id="2Mr-Dt-ZYO">
+                <rect key="frame" x="0.0" y="0.0" width="142" height="24"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tBL-D5-wvn">
+                        <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="HEu-bY-cF1"/>
+                            <constraint firstAttribute="height" constant="24" id="ZEk-Pr-fH4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qee-UJ-bOI">
+                        <rect key="frame" x="32" y="0.0" width="33" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="TWs-7K-Amr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.10196078431372549" green="0.086274509803921567" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="tBL-D5-wvn" firstAttribute="leading" secondItem="2Mr-Dt-ZYO" secondAttribute="leading" id="7MC-1E-Poi"/>
+                    <constraint firstItem="qee-UJ-bOI" firstAttribute="leading" secondItem="tBL-D5-wvn" secondAttribute="trailing" constant="8" id="ANU-S5-MLN"/>
+                    <constraint firstAttribute="bottom" secondItem="qee-UJ-bOI" secondAttribute="bottom" id="hki-Zn-yhm"/>
+                    <constraint firstItem="tBL-D5-wvn" firstAttribute="top" secondItem="2Mr-Dt-ZYO" secondAttribute="top" id="iqr-lr-IK0"/>
+                    <constraint firstAttribute="bottom" secondItem="tBL-D5-wvn" secondAttribute="bottom" id="nc6-dB-6sU"/>
+                    <constraint firstItem="qee-UJ-bOI" firstAttribute="top" secondItem="2Mr-Dt-ZYO" secondAttribute="top" id="t3o-dF-pVO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="teamImage" destination="tBL-D5-wvn" id="CvM-UW-0cL"/>
+                <outlet property="teamName" destination="qee-UJ-bOI" id="t6p-ve-LDi"/>
+            </connections>
+            <point key="canvasLocation" x="109.9236641221374" y="-11.267605633802818"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -7,15 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D106C6752C510AFE00EBB518 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106C6742C510AFE00EBB518 /* Team.swift */; };
+		D106C6792C51168F00EBB518 /* SaveTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106C6782C51168F00EBB518 /* SaveTeamViewController.swift */; };
+		D106C67B2C5121F400EBB518 /* SavedTeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106C67A2C5121F400EBB518 /* SavedTeamsViewController.swift */; };
+		D106C67D2C5125ED00EBB518 /* AddedTeamsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D106C67C2C5125ED00EBB518 /* AddedTeamsCell.xib */; };
+		D106C67F2C51261400EBB518 /* AddedTeamsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106C67E2C51261400EBB518 /* AddedTeamsCell.swift */; };
+		D117FDE62C48F28E00405A77 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117FDE52C48F28E00405A77 /* AlertViewController.swift */; };
+		D117FDEA2C49251300405A77 /* Hiddens.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117FDE92C49251300405A77 /* Hiddens.swift */; };
+		D117FDEC2C49399900405A77 /* MatchAddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117FDEB2C49399900405A77 /* MatchAddingViewController.swift */; };
+		D117FDEE2C49632100405A77 /* ClubsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D117FDED2C49632100405A77 /* ClubsCell.xib */; };
+		D117FDF02C49640C00405A77 /* ClubsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117FDEF2C49640C00405A77 /* ClubsCell.swift */; };
+		D127572A2C5245D900CA412F /* DeleteTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12757292C5245D900CA412F /* DeleteTeamViewController.swift */; };
+		D127572C2C52763000CA412F /* DltPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127572B2C52763000CA412F /* DltPlayerViewController.swift */; };
+		D127572E2C528B8200CA412F /* ForAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127572D2C528B8200CA412F /* ForAdditions.swift */; };
+		D1291A0D2C47DF8800106A10 /* TeamsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1291A0C2C47DF8800106A10 /* TeamsCell.xib */; };
+		D1291A0F2C47DFDE00106A10 /* TeamsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1291A0E2C47DFDE00106A10 /* TeamsCell.swift */; };
+		D1291A112C47E68C00106A10 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1291A102C47E68C00106A10 /* TeamsViewController.swift */; };
+		D1291A132C47E81A00106A10 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1291A122C47E81A00106A10 /* Information.swift */; };
+		D1318FE02C52283500B09BDF /* ShowTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1318FDF2C52283500B09BDF /* ShowTeamVC.swift */; };
+		D13667132C4CDD4E00D81492 /* SavedMatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13667122C4CDD4E00D81492 /* SavedMatchesViewController.swift */; };
+		D13667152C4CE58800D81492 /* Details1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13667142C4CE58800D81492 /* Details1.swift */; };
+		D13667172C4CEF2400D81492 /* SavedMatchesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D13667162C4CEF2400D81492 /* SavedMatchesCell.xib */; };
+		D13667192C4CEF5000D81492 /* SavedMatchesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13667182C4CEF5000D81492 /* SavedMatchesCell.swift */; };
+		D1672DCF2C46B269004621A1 /* TeamDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1672DCE2C46B269004621A1 /* TeamDescriptionViewController.swift */; };
+		D16FE5322C4E5B5900F48164 /* DeleteMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FE5312C4E5B5900F48164 /* DeleteMatchViewController.swift */; };
+		D16FE5342C4E6C6700F48164 /* WatchMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FE5332C4E6C6700F48164 /* WatchMatchViewController.swift */; };
 		D19265A52C4254AC0080AF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265A42C4254AC0080AF34 /* AppDelegate.swift */; };
 		D19265A72C4254AC0080AF34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265A62C4254AC0080AF34 /* SceneDelegate.swift */; };
 		D19265A92C4254AC0080AF34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265A82C4254AC0080AF34 /* ViewController.swift */; };
 		D19265AC2C4254AC0080AF34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19265AA2C4254AC0080AF34 /* Main.storyboard */; };
 		D19265AE2C4254AD0080AF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19265AD2C4254AD0080AF34 /* Assets.xcassets */; };
 		D19265B12C4254AD0080AF34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19265AF2C4254AD0080AF34 /* LaunchScreen.storyboard */; };
+		D19265B92C425DE90080AF34 /* OnboardingVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265B82C425DE90080AF34 /* OnboardingVIewController.swift */; };
+		D19265BB2C42D5130080AF34 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265BA2C42D5130080AF34 /* TabBarController.swift */; };
+		D19265BE2C42D9B60080AF34 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265BD2C42D9B60080AF34 /* FirstTabViewController.swift */; };
+		D19265C02C42D9DC0080AF34 /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265BF2C42D9DC0080AF34 /* SecondTabViewController.swift */; };
+		D19265C22C42D9FD0080AF34 /* ThirdTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265C12C42D9FD0080AF34 /* ThirdTabViewController.swift */; };
+		D19265C42C42DA200080AF34 /* FourthTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265C32C42DA200080AF34 /* FourthTabViewController.swift */; };
+		D19265C62C42DA400080AF34 /* FifthTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265C52C42DA400080AF34 /* FifthTabViewController.swift */; };
+		D19265C82C43AB1C0080AF34 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265C72C43AB1C0080AF34 /* CustomTabBar.swift */; };
+		D19265CB2C43DBB20080AF34 /* FeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265CA2C43DBB20080AF34 /* FeaturesViewController.swift */; };
+		D19265CD2C43E5AE0080AF34 /* HistoricalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265CC2C43E5AE0080AF34 /* HistoricalViewController.swift */; };
+		D19265CF2C43E5D30080AF34 /* SignificantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265CE2C43E5D30080AF34 /* SignificantViewController.swift */; };
+		D19265D12C43E5F40080AF34 /* EvolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265D02C43E5F40080AF34 /* EvolutionViewController.swift */; };
+		D19265D32C43E60F0080AF34 /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19265D22C43E60F0080AF34 /* ImpactViewController.swift */; };
+		D19AB99D2C466D6900F6421E /* TeamsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19AB99C2C466D6900F6421E /* TeamsCollectionViewCell.swift */; };
+		D1AB20EC2C4BB4A300C8CD5B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB20EB2C4BB4A300C8CD5B /* DetailsViewController.swift */; };
+		D1AB20EE2C4BEE9300C8CD5B /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB20ED2C4BEE9300C8CD5B /* Details.swift */; };
+		D1AB20F02C4BFFDB00C8CD5B /* DetailsFirstHalf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB20EF2C4BFFDB00C8CD5B /* DetailsFirstHalf.swift */; };
+		D1BC52232C4A6F1600E652DB /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BC52222C4A6F1600E652DB /* DatePickerViewController.swift */; };
+		D1BC65EE2C4FF80B00AD30A3 /* AddTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BC65ED2C4FF80B00AD30A3 /* AddTeamViewController.swift */; };
+		D1C36A412C466BEA00C0412E /* collectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1C36A402C466BEA00C0412E /* collectionCell.xib */; };
+		D595284032D8B5D12F5BA641 /* Pods_SoccerBetting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76874314DE5F48253DC89D0 /* Pods_SoccerBetting.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80D399A55E26C81FC2CA8090 /* Pods-SoccerBetting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerBetting.release.xcconfig"; path = "Target Support Files/Pods-SoccerBetting/Pods-SoccerBetting.release.xcconfig"; sourceTree = "<group>"; };
+		D106C6742C510AFE00EBB518 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		D106C6782C51168F00EBB518 /* SaveTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTeamViewController.swift; sourceTree = "<group>"; };
+		D106C67A2C5121F400EBB518 /* SavedTeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTeamsViewController.swift; sourceTree = "<group>"; };
+		D106C67C2C5125ED00EBB518 /* AddedTeamsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddedTeamsCell.xib; sourceTree = "<group>"; };
+		D106C67E2C51261400EBB518 /* AddedTeamsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedTeamsCell.swift; sourceTree = "<group>"; };
+		D117FDE52C48F28E00405A77 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		D117FDE92C49251300405A77 /* Hiddens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiddens.swift; sourceTree = "<group>"; };
+		D117FDEB2C49399900405A77 /* MatchAddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchAddingViewController.swift; sourceTree = "<group>"; };
+		D117FDED2C49632100405A77 /* ClubsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClubsCell.xib; sourceTree = "<group>"; };
+		D117FDEF2C49640C00405A77 /* ClubsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsCell.swift; sourceTree = "<group>"; };
+		D12757292C5245D900CA412F /* DeleteTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteTeamViewController.swift; sourceTree = "<group>"; };
+		D127572B2C52763000CA412F /* DltPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DltPlayerViewController.swift; sourceTree = "<group>"; };
+		D127572D2C528B8200CA412F /* ForAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForAdditions.swift; sourceTree = "<group>"; };
+		D1291A0C2C47DF8800106A10 /* TeamsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamsCell.xib; sourceTree = "<group>"; };
+		D1291A0E2C47DFDE00106A10 /* TeamsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsCell.swift; sourceTree = "<group>"; };
+		D1291A102C47E68C00106A10 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		D1291A122C47E81A00106A10 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		D1318FDF2C52283500B09BDF /* ShowTeamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTeamVC.swift; sourceTree = "<group>"; };
+		D13667122C4CDD4E00D81492 /* SavedMatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMatchesViewController.swift; sourceTree = "<group>"; };
+		D13667142C4CE58800D81492 /* Details1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details1.swift; sourceTree = "<group>"; };
+		D13667162C4CEF2400D81492 /* SavedMatchesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedMatchesCell.xib; sourceTree = "<group>"; };
+		D13667182C4CEF5000D81492 /* SavedMatchesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMatchesCell.swift; sourceTree = "<group>"; };
+		D1672DCE2C46B269004621A1 /* TeamDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDescriptionViewController.swift; sourceTree = "<group>"; };
+		D16FE5312C4E5B5900F48164 /* DeleteMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteMatchViewController.swift; sourceTree = "<group>"; };
+		D16FE5332C4E6C6700F48164 /* WatchMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMatchViewController.swift; sourceTree = "<group>"; };
 		D19265A12C4254AC0080AF34 /* SoccerBetting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerBetting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19265A42C4254AC0080AF34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D19265A62C4254AC0080AF34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +96,28 @@
 		D19265AD2C4254AD0080AF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D19265B02C4254AD0080AF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D19265B22C4254AD0080AF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19265B82C425DE90080AF34 /* OnboardingVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVIewController.swift; sourceTree = "<group>"; };
+		D19265BA2C42D5130080AF34 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D19265BD2C42D9B60080AF34 /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
+		D19265BF2C42D9DC0080AF34 /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
+		D19265C12C42D9FD0080AF34 /* ThirdTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabViewController.swift; sourceTree = "<group>"; };
+		D19265C32C42DA200080AF34 /* FourthTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTabViewController.swift; sourceTree = "<group>"; };
+		D19265C52C42DA400080AF34 /* FifthTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthTabViewController.swift; sourceTree = "<group>"; };
+		D19265C72C43AB1C0080AF34 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		D19265CA2C43DBB20080AF34 /* FeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesViewController.swift; sourceTree = "<group>"; };
+		D19265CC2C43E5AE0080AF34 /* HistoricalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalViewController.swift; sourceTree = "<group>"; };
+		D19265CE2C43E5D30080AF34 /* SignificantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignificantViewController.swift; sourceTree = "<group>"; };
+		D19265D02C43E5F40080AF34 /* EvolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvolutionViewController.swift; sourceTree = "<group>"; };
+		D19265D22C43E60F0080AF34 /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
+		D19AB99C2C466D6900F6421E /* TeamsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D1AB20EB2C4BB4A300C8CD5B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D1AB20ED2C4BEE9300C8CD5B /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		D1AB20EF2C4BFFDB00C8CD5B /* DetailsFirstHalf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFirstHalf.swift; sourceTree = "<group>"; };
+		D1BC52222C4A6F1600E652DB /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		D1BC65ED2C4FF80B00AD30A3 /* AddTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamViewController.swift; sourceTree = "<group>"; };
+		D1C36A402C466BEA00C0412E /* collectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = collectionCell.xib; sourceTree = "<group>"; };
+		DB5B583469D9BFD814C36914 /* Pods-SoccerBetting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerBetting.debug.xcconfig"; path = "Target Support Files/Pods-SoccerBetting/Pods-SoccerBetting.debug.xcconfig"; sourceTree = "<group>"; };
+		F76874314DE5F48253DC89D0 /* Pods_SoccerBetting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoccerBetting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +125,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D595284032D8B5D12F5BA641 /* Pods_SoccerBetting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1224280E8B7730603E31435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB5B583469D9BFD814C36914 /* Pods-SoccerBetting.debug.xcconfig */,
+				80D399A55E26C81FC2CA8090 /* Pods-SoccerBetting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1291A0B2C47DF6C00106A10 /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+				D1291A0C2C47DF8800106A10 /* TeamsCell.xib */,
+				D1291A0E2C47DFDE00106A10 /* TeamsCell.swift */,
+				D1291A102C47E68C00106A10 /* TeamsViewController.swift */,
+				D117FDE52C48F28E00405A77 /* AlertViewController.swift */,
+				D117FDEB2C49399900405A77 /* MatchAddingViewController.swift */,
+				D1BC52222C4A6F1600E652DB /* DatePickerViewController.swift */,
+				D117FDED2C49632100405A77 /* ClubsCell.xib */,
+				D117FDEF2C49640C00405A77 /* ClubsCell.swift */,
+				D1AB20EB2C4BB4A300C8CD5B /* DetailsViewController.swift */,
+				D13667122C4CDD4E00D81492 /* SavedMatchesViewController.swift */,
+				D13667162C4CEF2400D81492 /* SavedMatchesCell.xib */,
+				D13667182C4CEF5000D81492 /* SavedMatchesCell.swift */,
+				D16FE5312C4E5B5900F48164 /* DeleteMatchViewController.swift */,
+				D16FE5332C4E6C6700F48164 /* WatchMatchViewController.swift */,
+			);
+			path = Fourth;
+			sourceTree = "<group>";
+		};
 		D19265982C4254AC0080AF34 = {
 			isa = PBXGroup;
 			children = (
+				D127572D2C528B8200CA412F /* ForAdditions.swift */,
+				D106C6742C510AFE00EBB518 /* Team.swift */,
+				D13667142C4CE58800D81492 /* Details1.swift */,
+				D1AB20EF2C4BFFDB00C8CD5B /* DetailsFirstHalf.swift */,
+				D1AB20ED2C4BEE9300C8CD5B /* Details.swift */,
+				D117FDE92C49251300405A77 /* Hiddens.swift */,
 				D19265A32C4254AC0080AF34 /* SoccerBetting */,
 				D19265A22C4254AC0080AF34 /* Products */,
+				C1224280E8B7730603E31435 /* Pods */,
+				E6C33A76ECF06CB51A917ABD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +189,81 @@
 		D19265A32C4254AC0080AF34 /* SoccerBetting */ = {
 			isa = PBXGroup;
 			children = (
+				D19265BC2C42D92F0080AF34 /* TabBarItems */,
 				D19265A42C4254AC0080AF34 /* AppDelegate.swift */,
 				D19265A62C4254AC0080AF34 /* SceneDelegate.swift */,
 				D19265A82C4254AC0080AF34 /* ViewController.swift */,
+				D19265B82C425DE90080AF34 /* OnboardingVIewController.swift */,
+				D19265BA2C42D5130080AF34 /* TabBarController.swift */,
 				D19265AA2C4254AC0080AF34 /* Main.storyboard */,
 				D19265AD2C4254AD0080AF34 /* Assets.xcassets */,
 				D19265AF2C4254AD0080AF34 /* LaunchScreen.storyboard */,
 				D19265B22C4254AD0080AF34 /* Info.plist */,
+				D1291A122C47E81A00106A10 /* Information.swift */,
 			);
 			path = SoccerBetting;
+			sourceTree = "<group>";
+		};
+		D19265BC2C42D92F0080AF34 /* TabBarItems */ = {
+			isa = PBXGroup;
+			children = (
+				D19265BD2C42D9B60080AF34 /* FirstTabViewController.swift */,
+				D19265C92C43DB7A0080AF34 /* First */,
+				D19265BF2C42D9DC0080AF34 /* SecondTabViewController.swift */,
+				D19265C12C42D9FD0080AF34 /* ThirdTabViewController.swift */,
+				D1D5BE8C2C465D2E00AEBFDF /* third */,
+				D19265C32C42DA200080AF34 /* FourthTabViewController.swift */,
+				D1291A0B2C47DF6C00106A10 /* Fourth */,
+				D19265C52C42DA400080AF34 /* FifthTabViewController.swift */,
+				D1BC65EC2C4FF7E300AD30A3 /* Fifth */,
+				D19265C72C43AB1C0080AF34 /* CustomTabBar.swift */,
+			);
+			path = TabBarItems;
+			sourceTree = "<group>";
+		};
+		D19265C92C43DB7A0080AF34 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				D19265CA2C43DBB20080AF34 /* FeaturesViewController.swift */,
+				D19265CC2C43E5AE0080AF34 /* HistoricalViewController.swift */,
+				D19265CE2C43E5D30080AF34 /* SignificantViewController.swift */,
+				D19265D02C43E5F40080AF34 /* EvolutionViewController.swift */,
+				D19265D22C43E60F0080AF34 /* ImpactViewController.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		D1BC65EC2C4FF7E300AD30A3 /* Fifth */ = {
+			isa = PBXGroup;
+			children = (
+				D1BC65ED2C4FF80B00AD30A3 /* AddTeamViewController.swift */,
+				D106C6782C51168F00EBB518 /* SaveTeamViewController.swift */,
+				D106C67A2C5121F400EBB518 /* SavedTeamsViewController.swift */,
+				D106C67C2C5125ED00EBB518 /* AddedTeamsCell.xib */,
+				D106C67E2C51261400EBB518 /* AddedTeamsCell.swift */,
+				D1318FDF2C52283500B09BDF /* ShowTeamVC.swift */,
+				D12757292C5245D900CA412F /* DeleteTeamViewController.swift */,
+				D127572B2C52763000CA412F /* DltPlayerViewController.swift */,
+			);
+			path = Fifth;
+			sourceTree = "<group>";
+		};
+		D1D5BE8C2C465D2E00AEBFDF /* third */ = {
+			isa = PBXGroup;
+			children = (
+				D1C36A402C466BEA00C0412E /* collectionCell.xib */,
+				D19AB99C2C466D6900F6421E /* TeamsCollectionViewCell.swift */,
+				D1672DCE2C46B269004621A1 /* TeamDescriptionViewController.swift */,
+			);
+			path = third;
+			sourceTree = "<group>";
+		};
+		E6C33A76ECF06CB51A917ABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76874314DE5F48253DC89D0 /* Pods_SoccerBetting.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D19265B52C4254AD0080AF34 /* Build configuration list for PBXNativeTarget "SoccerBetting" */;
 			buildPhases = (
+				B462AB2937F0667269F3A342 /* [CP] Check Pods Manifest.lock */,
 				D192659D2C4254AC0080AF34 /* Sources */,
 				D192659E2C4254AC0080AF34 /* Frameworks */,
 				D192659F2C4254AC0080AF34 /* Resources */,
+				64509EE072437A05F1062EE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +326,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1291A0D2C47DF8800106A10 /* TeamsCell.xib in Resources */,
+				D117FDEE2C49632100405A77 /* ClubsCell.xib in Resources */,
 				D19265B12C4254AD0080AF34 /* LaunchScreen.storyboard in Resources */,
 				D19265AE2C4254AD0080AF34 /* Assets.xcassets in Resources */,
+				D13667172C4CEF2400D81492 /* SavedMatchesCell.xib in Resources */,
 				D19265AC2C4254AC0080AF34 /* Main.storyboard in Resources */,
+				D1C36A412C466BEA00C0412E /* collectionCell.xib in Resources */,
+				D106C67D2C5125ED00EBB518 /* AddedTeamsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64509EE072437A05F1062EE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoccerBetting/Pods-SoccerBetting-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoccerBetting/Pods-SoccerBetting-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoccerBetting/Pods-SoccerBetting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B462AB2937F0667269F3A342 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoccerBetting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D192659D2C4254AC0080AF34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D106C6752C510AFE00EBB518 /* Team.swift in Sources */,
+				D19265C22C42D9FD0080AF34 /* ThirdTabViewController.swift in Sources */,
 				D19265A92C4254AC0080AF34 /* ViewController.swift in Sources */,
+				D1AB20EC2C4BB4A300C8CD5B /* DetailsViewController.swift in Sources */,
+				D1291A0F2C47DFDE00106A10 /* TeamsCell.swift in Sources */,
+				D106C67B2C5121F400EBB518 /* SavedTeamsViewController.swift in Sources */,
+				D19265D32C43E60F0080AF34 /* ImpactViewController.swift in Sources */,
+				D117FDF02C49640C00405A77 /* ClubsCell.swift in Sources */,
+				D1AB20EE2C4BEE9300C8CD5B /* Details.swift in Sources */,
 				D19265A52C4254AC0080AF34 /* AppDelegate.swift in Sources */,
+				D19265C82C43AB1C0080AF34 /* CustomTabBar.swift in Sources */,
+				D13667192C4CEF5000D81492 /* SavedMatchesCell.swift in Sources */,
+				D19265D12C43E5F40080AF34 /* EvolutionViewController.swift in Sources */,
+				D117FDE62C48F28E00405A77 /* AlertViewController.swift in Sources */,
+				D19265B92C425DE90080AF34 /* OnboardingVIewController.swift in Sources */,
+				D19265C02C42D9DC0080AF34 /* SecondTabViewController.swift in Sources */,
+				D13667152C4CE58800D81492 /* Details1.swift in Sources */,
+				D1672DCF2C46B269004621A1 /* TeamDescriptionViewController.swift in Sources */,
+				D19AB99D2C466D6900F6421E /* TeamsCollectionViewCell.swift in Sources */,
+				D19265CD2C43E5AE0080AF34 /* HistoricalViewController.swift in Sources */,
+				D1318FE02C52283500B09BDF /* ShowTeamVC.swift in Sources */,
+				D1BC52232C4A6F1600E652DB /* DatePickerViewController.swift in Sources */,
+				D19265C42C42DA200080AF34 /* FourthTabViewController.swift in Sources */,
+				D127572A2C5245D900CA412F /* DeleteTeamViewController.swift in Sources */,
+				D127572C2C52763000CA412F /* DltPlayerViewController.swift in Sources */,
+				D13667132C4CDD4E00D81492 /* SavedMatchesViewController.swift in Sources */,
+				D1291A112C47E68C00106A10 /* TeamsViewController.swift in Sources */,
+				D19265BE2C42D9B60080AF34 /* FirstTabViewController.swift in Sources */,
+				D19265BB2C42D5130080AF34 /* TabBarController.swift in Sources */,
+				D16FE5322C4E5B5900F48164 /* DeleteMatchViewController.swift in Sources */,
+				D106C6792C51168F00EBB518 /* SaveTeamViewController.swift in Sources */,
+				D1291A132C47E81A00106A10 /* Information.swift in Sources */,
+				D1AB20F02C4BFFDB00C8CD5B /* DetailsFirstHalf.swift in Sources */,
+				D117FDEA2C49251300405A77 /* Hiddens.swift in Sources */,
+				D16FE5342C4E6C6700F48164 /* WatchMatchViewController.swift in Sources */,
+				D19265CF2C43E5D30080AF34 /* SignificantViewController.swift in Sources */,
+				D127572E2C528B8200CA412F /* ForAdditions.swift in Sources */,
+				D1BC65EE2C4FF80B00AD30A3 /* AddTeamViewController.swift in Sources */,
+				D19265CB2C43DBB20080AF34 /* FeaturesViewController.swift in Sources */,
+				D117FDEC2C49399900405A77 /* MatchAddingViewController.swift in Sources */,
+				D19265C62C42DA400080AF34 /* FifthTabViewController.swift in Sources */,
+				D106C67F2C51261400EBB518 /* AddedTeamsCell.swift in Sources */,
 				D19265A72C4254AC0080AF34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +491,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +554,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +575,7 @@
 		};
 		D19265B62C4254AD0080AF34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5B583469D9BFD814C36914 /* Pods-SoccerBetting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,6 +589,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +605,7 @@
 		};
 		D19265B72C4254AD0080AF34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D399A55E26C81FC2CA8090 /* Pods-SoccerBetting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +619,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
